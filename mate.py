@@ -31,14 +31,14 @@ draw = ImageDraw.Draw(image)
 
 draw.rectangle((0, 0, width, height), outline = 0, fill = 0)
 
-padding = -2
+padding = 0
 top = padding
-bottom = height-padding
+bottom = height - padding
 
 x = 0
 
 # font = ImageFont.load_default()
-font = ImageFont.truetype("rainyhearts.ttf", 8, )
+font = ImageFont.truetype("rainyhearts.ttf", 10, )
 
 while True:
 
