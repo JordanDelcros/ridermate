@@ -31,7 +31,7 @@ draw = ImageDraw.Draw(image)
 
 draw.rectangle((0, 0, width, height), outline = 0, fill = 0)
 
-padding = -8
+padding = -6
 top = padding
 bottom = height - padding
 
