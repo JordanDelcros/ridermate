@@ -38,7 +38,7 @@ bottom = height - padding
 x = 0
 
 # font = ImageFont.load_default()
-font = ImageFont.truetype("zero.ttf", 13)
+font = ImageFont.truetype("zero.ttf", 14)
 
 while True:
 
