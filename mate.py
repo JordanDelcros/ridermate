@@ -39,7 +39,7 @@ font = ImageFont.truetype("zero.ttf", 16)
 
 while True:
 
-	draw.text((x, top), str("Rider Mate mark 1"), font = font, fill = 255)
+	draw.text((x, y), str("Rider Mate mark 1"), font = font, fill = 255)
 
 	draw.rectangle((0, height - 1, width, 1), outline = 0, fill = 255)
 
