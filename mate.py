@@ -38,7 +38,7 @@ bottom = height - padding
 x = 0
 
 # font = ImageFont.load_default()
-font = ImageFont.truetype("silkscreen.ttf", 12)
+font = ImageFont.truetype("zero.ttf", 12)
 
 while True:
 
