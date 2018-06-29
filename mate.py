@@ -32,7 +32,7 @@ draw = ImageDraw.Draw(image)
 draw.rectangle((0, 0, width, height), outline = 0, fill = 0)
 
 x = 0
-y = -7
+y = -6
 
 # font = ImageFont.load_default()
 font = ImageFont.truetype("zero.ttf", 16)
