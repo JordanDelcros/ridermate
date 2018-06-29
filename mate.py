@@ -38,7 +38,7 @@ bottom = height - padding
 x = 0
 
 # font = ImageFont.load_default()
-font = ImageFont.truetype("rainyhearts.ttf", 8, )
+font = ImageFont.truetype("rainyhearts.ttf", 10, )
 
 while True:
 
@@ -57,11 +57,11 @@ while True:
 
 	draw.text((x, top), "IP: " + str(IP), font = font, fill = 255)
 
-	draw.text((x, top + 8), str(CPU), font = font, fill = 255)
+	draw.text((x, top + 10), str(CPU), font = font, fill = 255)
 
-	draw.text((x, top + 16), str(MemUsage), font = font, fill = 255)
+	draw.text((x, top + 20), str(MemUsage), font = font, fill = 255)
 
-	draw.text((x, top + 25), str(Disk), font = font, fill = 255)
+	draw.text((x, top + 30), str(Disk), font = font, fill = 255)
 
 	display.image(image)
 
