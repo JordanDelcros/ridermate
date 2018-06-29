@@ -38,7 +38,7 @@ bottom = height - padding
 x = 0
 
 # font = ImageFont.load_default()
-font = ImageFont.truetype("rainyhearts.ttf", 20, )
+font = ImageFont.truetype("rainyhearts.ttf", 15, )
 
 while True:
 
@@ -63,7 +63,7 @@ while True:
 
 	# draw.text((x, top + 30), str(Disk), font = font, fill = 255)
 
-	draw.text((x, top), str("RIDER MATE MARK 1"), font = font, fill = 255)
+	draw.text((x, top), str("Rider Mate mark 1"), font = font, fill = 255)
 
 	display.image(image)
 
