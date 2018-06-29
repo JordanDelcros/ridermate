@@ -63,7 +63,7 @@ while True:
 
 	# draw.text((x, top + 30), str(Disk), font = font, fill = 255)
 
-	draw.text(x, top, "RIDER MATE MARK 1", font = font, fill = 255)
+	draw.text((x, top), str("RIDER MATE MARK 1"), font = font, fill = 255)
 
 	display.image(image)
 
