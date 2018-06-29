@@ -41,7 +41,7 @@ while True:
 
 	draw.text((x, y), str("Rider Mate mark 1"), font = font, fill = 255)
 
-	draw.rectangle((0, height - 1, width, 1), outline = 0, fill = 255)
+	draw.rectangle((0, 1, width, height - 1), outline = 0, fill = 255)
 
 	display.image(image)
 
